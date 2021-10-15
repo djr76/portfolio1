@@ -27,7 +27,7 @@ export default function About() {
   if (!author) return <div>Loading again....</div>;
 
   return (
-    <main className="bg-blue-100 p-12">
+    <main className="bg-blue-100 min-h-screen p-12">
       <div className="p-20 lg:pt-36 container mx-auto relative">
         <section className="bg-blue-300 rounded-lg shadow-4xl lg:flex p-40">
           <img
