@@ -9,8 +9,8 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <BrowserRouter>
-    <NavBar />
+     <BrowserRouter>
+    { <NavBar />}
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={About} path='/about' />
@@ -19,6 +19,7 @@ function App() {
         <Route component={Project} path='/project' />
       </Switch>
     </BrowserRouter>
+    // <h1>Go Blues</h1>
   )
 }
 

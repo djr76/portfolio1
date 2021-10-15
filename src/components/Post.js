@@ -25,13 +25,13 @@ export default function Post() {
   }, []);
 
   return (
-    <main className="bg-green min-h-screen p-12">
+    <main className="bg-blue-100 min-h-screen p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl flex justified-center cursive">
           Blog Post Page
         </h1>
         <h2 className="text-lg text-gray-600 justified-center mb-12">
-          Welcome to My Page of Blog Post
+          Welcome to My St. Louis Sports Blog Post
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData &&
@@ -42,7 +42,7 @@ export default function Post() {
                   key={post.slug.currrent}
                 >
                   <span
-                    className="block h-64 relative shadow leading-snug bg-white border-green-400"
+                    className="block h-48 w-64 relative hover: transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110"
                     key={index}
                   >
                     <img
