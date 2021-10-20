@@ -29,14 +29,234 @@
   line-height: 90vh;
 }
 
-@keyframe fadeInto {
-  to{
-    opacity: 1;
+
+
+#op{
+  animation:0s ease 0s normal forwards 1 fadein;
+  -webkit-animation:0s ease 0s normal forwards 1 fadein;
+  animation-direction: normal;
+  animation-duration: 2s ;
+  opacity:1;
+  position: relative;
+  }
+  
+  @keyframes fadein{
+      0%{opacity:0; left: -300px;}
+      100%{opacity:1; left: 0px}
+  }
+  
+  @-webkit-keyframes fadein{
+      0%{opacity:0; left:-300px}
+      100%{opacity:1; left: 0px}
   }
 
-}
+  @keyframes slidein {
+    to {
+      transform: translateX(0px);
+    }
 
-.fade-in{
-  opacity: 0;
-  animation: fadeIn 1s ease-in forwards;
-}
+    from {
+      transform: translateX(-600px);
+    }
+  }
+
+
+  #li-1 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: .5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  
+  #li-2 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: 1.5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  
+  
+  #li-3 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: 2.5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  
+  #li-4 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: 3.5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  
+  #li-5 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: 4.5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  
+  #li-6 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: 5.5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  
+  #li-7 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: 6.5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+
+  #li-8 {
+    animation: crescendo 1.5s alternate ease-in;
+    -webkit-animation: crescendo 1.5s alternate ease-in;
+    animation-direction: normal;
+    animation-duration: 1.5;
+    animation-delay: 7.5s;
+    opacity: 1;
+    position: relative;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  
+  }
+  
+  @-webkit-keyframes crescendo {
+    0%   {transform: scale(.8);}
+    50%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+  
+
+
+

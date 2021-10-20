@@ -37,7 +37,7 @@ export default function NavBar() {
             About Me
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className="inline-flex py-3 px-3 my-6 flex space-x-3">
             <SocialIcon url="https://www.instagram.com/" className="mar-4" target="_blank" fgColor="#ffff" style={{ height:35, width:35}}/>
             <SocialIcon url="https://www.facebook.com/djr76jits/" className="mar-4" target="_blank" fgColor="#ffff" style={{ height:35, width:35}}/>
             <SocialIcon url="https://www.youtube.com/channel/UCxc4icTZadSdFQN3Xv_ko4A" className="mar-4" target="_blank" fgColor="#ffff" style={{ height:35, width:35}}/>

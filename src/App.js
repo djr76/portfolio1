@@ -19,7 +19,7 @@ function App() {
         <Route component={Project} path='/project' />
       </Switch>
     </BrowserRouter>
-    // <h1>Go Blues</h1>
+    
   )
 }
 
